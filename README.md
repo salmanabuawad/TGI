@@ -12,15 +12,15 @@ to run the application:
 1. run npm install
 2. run node app.js
 
-   the system exposes 3 rest api's
-   post request http://localhost:3000/jobsMonitor/jobs
-     request body example
+   the system exposes 3 rest api's  
+   post request http://localhost:3000/jobsMonitor/jobs  
+     request body example  
      {
 	"jobName": "task_with_multi_thread.bat",
       	"mode":"debug"
      }
-   where jobName options can be one of the 3 batch files under resource folder
-   other args are optional
+   where jobName options can be one of the 3 batch files under resource folder  
+   other args are optional  
    
-   get request http://localhost:3000/jobsMonitor/jobs
-   get request http://localhost:3000/jobsMonitor/stats
+   get request http://localhost:3000/jobsMonitor/jobs  
+   get request http://localhost:3000/jobsMonitor/stats  
