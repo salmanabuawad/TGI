@@ -4,7 +4,8 @@ the solution is based on 3 job characteristics that may affect jobs success or f
 2. multi-thread job
 3. job with database connection.
 
-in order to specify the job characteristics for the metric, we check if the name of the job and/or job arguments contain one or more of the 3 keywords: thread, db, debug
+in order to specify the job characteristics for the metric, we check if the name of the job and/or job arguments contain one or more of the 3 keywords:  
+thread, db, debug  
 if yes then the relevant metric will include the job in calculations
 I used this approach, since we are using batch files to simulate c++ programs.
 
